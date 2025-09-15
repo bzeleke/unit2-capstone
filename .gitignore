@@ -1,0 +1,20 @@
+#Env
+.env 
+#Databases
+*.db
+
+#vector/embedding stores
+vector_store/
+chroma_store
+
+#Py cache
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+#venv
+venv/
+.myvenv/
+env/
+.venv/
